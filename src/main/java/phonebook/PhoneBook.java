@@ -6,10 +6,7 @@ import java.util.regex.Pattern;
 //import java.util.HashMap;
 
 
-/**
- * Created by leon on 1/23/18.
- * Made WAY better by kristofer 6/16/20
- */
+
 public class PhoneBook {
 
     private final Map<String, List<String>> phonebook;
@@ -20,7 +17,7 @@ public class PhoneBook {
     }
 
     public PhoneBook() {
-        this(null);
+      this(null);
     }
 
     public void add(String name, String phoneNumber) {
